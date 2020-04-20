@@ -1,6 +1,6 @@
 #mutable vs. immutable
 '''
-Mutable objects: list,dict,byte,array
+Mutable objects: list,dict,byte,array,etc.
 '''
 a = [1,1]
 print("a:{}".format(a))
