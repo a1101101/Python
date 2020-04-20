@@ -38,7 +38,7 @@ def next(a):
 def perm(a):
     a.sort()
     print(a)
-    for i in range(fact(n)-1):
+    for i in range(fact(len(a))-1):
         a = next(a)
         print(a)
 
