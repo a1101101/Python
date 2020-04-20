@@ -6,13 +6,13 @@ a = [1,1]
 print("a:{}".format(a))
 print("id(a) is:{}".format(id(a)))
 print("")
-#53148688
+#e.g. 53148688
 
 b = [1,1]
 print("b:{}".format(b))
 print("id(b) is:{}".format(id(b)))
 print("")
-#53148608
+#e.g. 53148608
 
 print("a is b?:{}".format(a is b))
 print("------")
@@ -26,13 +26,13 @@ a = 1
 print("a:{}".format(a))
 print("id(a) is:{}".format(id(a)))
 print("")
-#53148688
+#e.g. 2042444032
 
 b = 1
 print("b:{}".format(b))
 print("id(b) is:{}".format(id(b)))
 print("")
-#53148608
+#e.g. 2042444032
 
 print("a is b?:{}".format(a is b))	     
 #False
