@@ -1,4 +1,6 @@
 #DFS
+
+#入力
 def inp():
     print("Input number of vertices:",end="")
     n = int(input())
