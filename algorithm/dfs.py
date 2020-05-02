@@ -61,13 +61,6 @@ def search(G,node,stack):
         print("not found")
         stack.pop()
 
-#結果表示
-def result(G):
-    if len(G)==0:
-        print("\nsearch complete.")
-    else:
-        print("\nsearch incomplete. G:{}".format(G))
-
 #探索
 def dfs(G,r):
     #スタックに根を格納
@@ -78,6 +71,13 @@ def dfs(G,r):
         search(G,node,stack)
     result(G)
 
+#結果表示
+def result(G):
+    if len(G)==0:
+        print("\nsearch complete.")
+    else:
+        print("\nsearch incomplete. G:{}".format(G))
+    
 if __name__ == '__main__':
     n,G = inp()
     r = root()
