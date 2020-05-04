@@ -16,8 +16,7 @@ def inp():
         e[1] = int(e[1])
         G.append(e)
 
-    print("\ngraph G:")
-    print(G,end="\n")
+    print("\ngraph G:{}".format(G))
     return n,G
 
 #キューの先頭毎の探索
