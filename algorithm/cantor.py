@@ -20,14 +20,14 @@ def i_cantor(n):
     return x,y
 
 
-print("Enter 2 integers for Cantor's pairing function F(n,m):")
+print("Enter 2 integers for Cantor's pairing function F(x,y):")
 
-n,m = input().split()
+x,y = input().split()
 
-print(cantor(n,m))
+print(cantor(x,y))
 
 
-print("\nEnter an integer for the inverse of F(n,m):")
+print("\nEnter an integer for the inverse of F(x,y):")
 
 n = input()
 
