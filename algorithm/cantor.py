@@ -5,7 +5,6 @@ def cantor(x,y):
     y = int(y)
     return (x+y)*(x+y+1)//2 + y
 
-#wrong! 11->...
 def i_cantor(n):
     n = int(n)
     s = 0
