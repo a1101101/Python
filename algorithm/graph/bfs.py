@@ -39,7 +39,7 @@ def search(G,V,q):
         else:
             i+=1
 
-#探索実行
+#探索
 def bfs(G,n):
     #ノード初期化
     V = [0 for i in range(n)]
@@ -62,5 +62,6 @@ def bfs(G,n):
     else:
         print("\nsearch incomplete.")
 
+#実行
 n,G = inp()
 bfs(G,n)
