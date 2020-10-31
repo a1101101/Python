@@ -62,6 +62,5 @@ def bfs(G,n):
     else:
         print("\nsearch incomplete.")
 
-if __name__ == '__main__':
-    n,G = inp()
-    bfs(G,n)
+n,G = inp()
+bfs(G,n)
