@@ -1,4 +1,4 @@
-#BFS
+#幅優先探索
 import queue as que
 
 #入力
