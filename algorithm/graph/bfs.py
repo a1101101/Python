@@ -39,7 +39,7 @@ def search(G,V,q):
         else:
             i+=1
 
-#幅優先実行
+#探索実行
 def bfs(G,n):
     #ノード初期化
     V = [0 for i in range(n)]
